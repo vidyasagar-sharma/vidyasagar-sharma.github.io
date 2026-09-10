@@ -40,7 +40,7 @@ h1 { margin-bottom: 1.7rem; color: var(--navy); font-family: var(--serif); font-
 .profile-links { display: flex; flex-wrap: wrap; gap: .65rem 1.25rem; margin: 0; padding: 0; list-style: none; }
 .profile-links a, .text-link, .paper-link { text-underline-offset: .25rem; font-size: .9rem; font-weight: 700; }
 .portrait-wrap { margin: 0; }
-.portrait { width: 100%; aspect-ratio: .9; object-fit: cover; object-position: center 28%; border-radius: 48% 48% 2px 2px; filter: saturate(.9) contrast(1.02); box-shadow: 1.25rem 1.25rem 0 #dce8e7; }
+.portrait { width: 100%; height: auto; object-fit: contain; object-position: center; border-radius: 1.25rem; filter: saturate(.9) contrast(1.02); box-shadow: 1.25rem 1.25rem 0 #dce8e7; }
 .portrait-wrap figcaption { margin-top: 2.2rem; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 
 .section { max-width: var(--max); margin: 0 auto; padding: 6.5rem 2rem; border-top: 1px solid var(--line); }
